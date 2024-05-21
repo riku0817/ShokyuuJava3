@@ -6,8 +6,8 @@ public class Animation extends MyFrame{
 		while(x<=170) {
 			clear();
 			fillRect(x,80,10,100);
-			x+=20;
-			sleep(1);
+			x+=5;
+			sleep(0.1);
 		}
 	}
 }
