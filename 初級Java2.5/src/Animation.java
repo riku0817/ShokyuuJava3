@@ -10,15 +10,16 @@ public class Animation extends MyFrame {
 				fillRect(x, y, 10, 100);
 				x += Math.sin(Math.toRadians(x));
 				y += Math.sin(Math.toRadians(y));
-				System.out.println(y);
+				System.out.println(x + " " + y);
 				sleep(0.005);
 			}
 			while (y >= 50) {
 				clear();
 				fillRect(x, y, 10, 100);
-				x -= Math.sin(Math.toRadians(x));
+				x += Math.sin(Math.toRadians(x));
 				y -= Math.sin(Math.toRadians(y));
 				System.out.println(y);
+				System.out.println(x + " " + y);
 				sleep(0.005);
 			}
 		}
