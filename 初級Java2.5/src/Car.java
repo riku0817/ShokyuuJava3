@@ -9,11 +9,12 @@ public class Car {
 		this.vy = vy;
 	}
 
+	// 85   105
 	public void draw(MyFrame frame) {
-		frame.fillRect(85,105,35,30);
-		frame.fillRect(70,120,65,20);
-		frame.fillOval(77,140,18,18);
-		frame.fillOval(110,140,18,18);
+		frame.fillRect(x, y, 35, 30);
+		frame.fillRect(x - 15, y+15, 65, 20);
+		frame.fillOval(x - 8, y+35, 18, 18);
+		frame.fillOval(x + 25, y+35, 18, 18);
 	}
 
 	public void move() {
