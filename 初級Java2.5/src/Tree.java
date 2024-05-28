@@ -1,5 +1,5 @@
 
-public class Tree extends MyFrame {
+public class Tree{
 	int x, y, vx, vy;
 
 	public Tree(int x, int y, int vx, int vy) {
